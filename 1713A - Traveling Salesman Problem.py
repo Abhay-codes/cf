@@ -19,9 +19,7 @@ for _ in range(int(input())):
             y =abs(y)
             if y>mx4:
                 mx4=y 
-    l=[mx1,mx2,mx3,mx4]
-    l.sort()
-    
-    sm =l[0]*2 +l[1]*2+l[2]*2+l[3]*2
-    print(sm)
+    sm=mx1+mx2+mx3+mx4
+   
+    print(sm*2)
             
