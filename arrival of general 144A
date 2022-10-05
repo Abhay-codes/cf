@@ -1,0 +1,18 @@
+#https://codeforces.com/problemset/problem/144/A
+n = int(input ())
+l = list (map (int, input ().split ()))
+mx = 0
+mn = 10 ** 5
+for i in range (n):
+    if l[i]>mx:
+        mx=l[i]
+        id1=i
+    if l[i]<=mn:
+        mn =l[i]
+        id2=i 
+c1=n-id2-1
+c2=id1 
+if id1>id2:
+    print(c1+c2-1)
+else:
+    print(c1+c2)
