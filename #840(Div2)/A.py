@@ -9,16 +9,16 @@ for _ in range(int(input())):
     l=[]
     
     #print(l)
-    
-    '''a=x[0]
+    #correct
+    a=x[0]
     b =x[0]
     for i in range(1,n):
         a=a|x[i]
         b=b& x[i]
-    print(a-b)'''
+    print(a-b)
         
-            
-    for i in range(n):
+     #wa on pretest 2 
+    '''for i in range(n):
         for j in range(n):
             if i==j:
                 continue
@@ -28,7 +28,7 @@ for _ in range(int(input())):
             
             if dif>mx:
                 mx=dif
-    print(mx)
+    print(mx)'''
                     
                 
                     
